@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Word Guess</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+            <h1 class="display-4">Word Guess Game</h1>
+            <h2 class="lead">Adivina palabras al azar.</h2>
+            <p>Presionar cualquier letra para empezar a jugar.</p>
+            </div>
+        </div>
+
+        <div class="Row">
+            <div class="col-lg-12">
+
+                <div class="card">
+                    <div class="card-header">
+                    <h3 class="card-title"><strong>Word to Guess</strong></h3>
+                    </div>
+                    <div class="card-body">
+                    <h3 id="word-blanks">_ _ _ _ _ _ _ _ _ </h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                    <strong>Wrong Guesses: </strong> <span id="wrongGuesses"></span>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <div class="card-body">
+                    <strong>Guesses Left: </strong> <span id="guessesLeft">9</span>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <div class="card-body">
+                    <strong>Win: </strong> <span id="winCounter">0</span>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <div class="card-body">
+                    <strong>Losses: </strong> <span id="lossCounter">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
