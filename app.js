@@ -60,7 +60,7 @@ function rondaCompleta() {
         winCounter++;
 
         document.getElementById("winCounter").innerHTML = winCounter;
-        alert("Ganados:" + winCounter + "| Perdidos: " + lossCouter + "Chances restantes: " + chancesRestantes);
+        alert("GANADOS:  " +   winCounter   +   " PERDIDOS :  " +   lossCouter);
 
         inicioJuego();
     }
@@ -69,7 +69,7 @@ function rondaCompleta() {
         lossCouter++;
 
         document.getElementById("lossCounter").innerHTML = lossCouter;
-        alert("Ganados:" + winCounter + "| Perdidos: " + lossCouter + "Chances restantes: " + chancesRestantes);
+        alert("GANADOS:  " +   winCounter   +   " PERDIDOS :  " +   lossCouter);
 
 
         inicioJuego();
