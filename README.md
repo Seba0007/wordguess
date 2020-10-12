@@ -2,7 +2,7 @@
 
 ## Live Links
 
-- Mi pagina Github: https://github.com/Seba0007/wordguess
+- Word-Guess app: https://seba0007.github.io/wordguess/
 - Mi Portafolio: https://portfoliosebastian.herokuapp.com/
 
 ## Descripcion del juego
