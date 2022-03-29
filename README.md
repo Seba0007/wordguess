@@ -3,7 +3,6 @@
 ## Live Links
 
 - Word-Guess app: https://seba0007.github.io/wordguess/
-- Mi Portafolio: https://portfoliosebastian.herokuapp.com/
 
 ## Descripcion del juego
 
